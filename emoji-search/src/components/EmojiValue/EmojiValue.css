@@ -1,0 +1,12 @@
+/* .emoji-value{
+    border: 1px solid #CED4DA;
+    border-radius: 0.25rem;
+} */
+
+.emoji-value{
+    border-bottom: 1px solid #CED4DA;
+    border-top: 1px solid #CED4DA;
+}
+.symbol{
+    font-size:32px 
+}
