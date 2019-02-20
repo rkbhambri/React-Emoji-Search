@@ -7,6 +7,7 @@ const Search = (props) => {
                 <input
                     type="text"
                     className="form-control"
+                    onChange={(event) => props.inputChangeHandler(event)}
                 />
             </form>
         </div>
