@@ -14,7 +14,8 @@ class Emoji extends Component {
 		updatedEmojiData: [],
 		pageNumberArray: [],
 		limit: 10,
-		skip: 0
+		skip: 0,
+		showPagination: true
 	};
 
 	componentDidMount() {
@@ -37,10 +38,19 @@ class Emoji extends Component {
 		let updatedEmojiData = this.state.emojiData.filter((item) => {
 			return item.title.toLowerCase().search(event.target.value.toLowerCase()) !== -1;
 		});
+		let showPagination = false;
+		if (event.target.value === '' && updatedEmojiData.length > 0) {
+			updatedEmojiData = [];
+			showPagination = true
+		}
+		if (event.target.value !== '' && updatedEmojiData.length === 0) {
+			showPagination = false;
+		}
 		this.setState({
 			...this.state,
 			inputSearchValue: event.target.value,
-			updatedEmojiData
+			updatedEmojiData,
+			showPagination
 		});
 	};
 
@@ -53,6 +63,7 @@ class Emoji extends Component {
 	}
 
 	render() {
+		// console.log(this.state.showPagination);
 		return (
 			<div className="Emoji-page-wrapper">
 				<Header />
@@ -60,10 +71,17 @@ class Emoji extends Component {
 				<EmojiValue
 					emojiData={this.state.inputSearchValue === '' ? this.state.emojiData.slice(this.state.skip, this.state.limit) : this.state.updatedEmojiData}
 				/>
-				<Pagination
-					pageNumber={this.state.pageNumberArray}
-					paginateData={(number) => { this.paginateData(number) }}
-				/>
+				{
+					this.state.showPagination &&
+					<Pagination
+						pageNumber={this.state.pageNumberArray}
+						paginateData={(number) => { this.paginateData(number) }}
+						limit={this.state.limit}
+					/>
+				}
+				{
+					this.state.inputSearchValue !== '' && this.state.updatedEmojiData.length === 0 && <h4>Emoji Not Found !!</h4>
+				}
 			</div>
 		);
 	};

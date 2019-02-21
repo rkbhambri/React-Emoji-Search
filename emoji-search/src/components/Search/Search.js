@@ -8,6 +8,7 @@ const Search = (props) => {
                     type="text"
                     className="form-control"
                     onChange={(event) => props.inputChangeHandler(event)}
+                    placeholder="Search Emoji"
                 />
             </form>
         </div>

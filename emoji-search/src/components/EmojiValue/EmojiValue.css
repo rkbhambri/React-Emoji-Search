@@ -4,9 +4,12 @@
 } */
 
 .emoji-value{
-    border-bottom: 1px solid #CED4DA;
+    /* border-bottom: 1px solid #CED4DA; */
     border-top: 1px solid #CED4DA;
 }
+.emoji-value:hover {
+    background-color: #eee;
+  }
 .symbol{
     font-size:32px 
 }
