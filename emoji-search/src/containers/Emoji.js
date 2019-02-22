@@ -15,7 +15,8 @@ class Emoji extends Component {
 		pageNumberArray: [],
 		limit: 10,
 		skip: 0,
-		showPagination: true
+		showPagination: true,
+		pageNumber: 1
 	};
 
 	componentDidMount() {
@@ -58,7 +59,34 @@ class Emoji extends Component {
 		this.setState({
 			...this.state,
 			skip: ((number * 10) - 10),
-			limit: number * 10
+			limit: number * 10,
+			pageNumber: number
+		})
+	}
+
+	paginatePreviousData = () => {
+		let number = this.state.pageNumber;
+		if (this.state.pageNumber > 1) {
+			number = this.state.pageNumber - 1;
+		}
+		this.setState({
+			...this.state,
+			skip: ((number * 10) - 10),
+			limit: number * 10,
+			pageNumber: number
+		})
+	}
+
+	paginateNextData = () => {
+		let number = this.state.pageNumber;
+		if (this.state.pageNumber < 5) {
+			number = this.state.pageNumber + 1;
+		}
+		this.setState({
+			...this.state,
+			skip: ((number * 10) - 10),
+			limit: number * 10,
+			pageNumber: number
 		})
 	}
 
@@ -77,6 +105,8 @@ class Emoji extends Component {
 						pageNumber={this.state.pageNumberArray}
 						paginateData={(number) => { this.paginateData(number) }}
 						limit={this.state.limit}
+						paginatePreviousData={() => this.paginatePreviousData()}
+						paginateNextData={() => this.paginateNextData()}
 					/>
 				}
 				{

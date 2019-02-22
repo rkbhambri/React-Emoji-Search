@@ -8,6 +8,7 @@ const EmojiValue = (props) => {
 				<div className="emoji-value row p-2" key={index} onClick={() => navigator.clipboard.writeText(data.symbol)}>
 					<h5 className="symbol" id="symobol">{data.symbol}</h5>&nbsp;
                     <h5 className="p-1">{data.title}</h5>
+					<span className="tooltiptext">Click to copy emoji</span>
 				</div>
 			)
 		})
