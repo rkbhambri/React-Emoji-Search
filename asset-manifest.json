@@ -1,15 +1,15 @@
 {
-  "main.css": "/React-Emoji-Search/static/css/main.28b37e7a.chunk.css",
-  "main.js": "/React-Emoji-Search/static/js/main.b6e306d9.chunk.js",
-  "main.js.map": "/React-Emoji-Search/static/js/main.b6e306d9.chunk.js.map",
-  "runtime~main.js": "/React-Emoji-Search/static/js/runtime~main.44f2a4e0.js",
-  "runtime~main.js.map": "/React-Emoji-Search/static/js/runtime~main.44f2a4e0.js.map",
-  "static/css/2.78bb1a5e.chunk.css": "/React-Emoji-Search/static/css/2.78bb1a5e.chunk.css",
-  "static/js/2.b4557e0f.chunk.js": "/React-Emoji-Search/static/js/2.b4557e0f.chunk.js",
-  "static/js/2.b4557e0f.chunk.js.map": "/React-Emoji-Search/static/js/2.b4557e0f.chunk.js.map",
-  "index.html": "/React-Emoji-Search/index.html",
-  "precache-manifest.1042264a60ea688ad53d3d57b0f37c3f.js": "/React-Emoji-Search/precache-manifest.1042264a60ea688ad53d3d57b0f37c3f.js",
-  "service-worker.js": "/React-Emoji-Search/service-worker.js",
-  "static/css/2.78bb1a5e.chunk.css.map": "/React-Emoji-Search/static/css/2.78bb1a5e.chunk.css.map",
-  "static/css/main.28b37e7a.chunk.css.map": "/React-Emoji-Search/static/css/main.28b37e7a.chunk.css.map"
+  "main.css": "/react-emoji-search/static/css/main.28b37e7a.chunk.css",
+  "main.js": "/react-emoji-search/static/js/main.00cb7940.chunk.js",
+  "main.js.map": "/react-emoji-search/static/js/main.00cb7940.chunk.js.map",
+  "runtime~main.js": "/react-emoji-search/static/js/runtime~main.f37c0747.js",
+  "runtime~main.js.map": "/react-emoji-search/static/js/runtime~main.f37c0747.js.map",
+  "static/css/2.78bb1a5e.chunk.css": "/react-emoji-search/static/css/2.78bb1a5e.chunk.css",
+  "static/js/2.b4557e0f.chunk.js": "/react-emoji-search/static/js/2.b4557e0f.chunk.js",
+  "static/js/2.b4557e0f.chunk.js.map": "/react-emoji-search/static/js/2.b4557e0f.chunk.js.map",
+  "index.html": "/react-emoji-search/index.html",
+  "precache-manifest.2ee917af0930fe156cdeb19878330da7.js": "/react-emoji-search/precache-manifest.2ee917af0930fe156cdeb19878330da7.js",
+  "service-worker.js": "/react-emoji-search/service-worker.js",
+  "static/css/2.78bb1a5e.chunk.css.map": "/react-emoji-search/static/css/2.78bb1a5e.chunk.css.map",
+  "static/css/main.28b37e7a.chunk.css.map": "/react-emoji-search/static/css/main.28b37e7a.chunk.css.map"
 }
