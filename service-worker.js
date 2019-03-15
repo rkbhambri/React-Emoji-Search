@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/React-Emoji-Search/precache-manifest.bf2d8355c68faa73ce7d2c60bf6f7b5c.js"
+  "/React-Emoji-Search/precache-manifest.1042264a60ea688ad53d3d57b0f37c3f.js"
 );
 
 workbox.clientsClaim();

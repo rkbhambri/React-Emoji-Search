@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/React-Emoji-Search/static/js/main.b6e306d9.chunk.js"
   },
   {
-    "revision": "2be004faa655df450af2",
-    "url": "/React-Emoji-Search/static/js/2.2be004fa.chunk.js"
+    "revision": "b4557e0f4ceeb3f46ce0",
+    "url": "/React-Emoji-Search/static/js/2.b4557e0f.chunk.js"
   },
   {
     "revision": "b6e306d9399fc518f79a",
     "url": "/React-Emoji-Search/static/css/main.28b37e7a.chunk.css"
   },
   {
-    "revision": "2be004faa655df450af2",
+    "revision": "b4557e0f4ceeb3f46ce0",
     "url": "/React-Emoji-Search/static/css/2.78bb1a5e.chunk.css"
   },
   {
-    "revision": "9cf3f0d0854cb0a77caaaa9fbbfd642a",
+    "revision": "8043b32add5064be68dc3a27d67e23d4",
     "url": "/React-Emoji-Search/index.html"
   }
 ];
