@@ -91,11 +91,10 @@ class Emoji extends Component {
 	}
 
 	render() {
-		// console.log(this.state.showPagination);
 		return (
 			<div className="Emoji-page-wrapper">
 				<Header />
-				<Search inputChangeHandler={(event) => this.inputChangeHandler(event)} /><br />
+				<Search inputChangeHandler={(event) => this.inputChangeHandler(event)} />
 				<EmojiValue
 					emojiData={this.state.inputSearchValue === '' ? this.state.emojiData.slice(this.state.skip, this.state.limit) : this.state.updatedEmojiData}
 				/>

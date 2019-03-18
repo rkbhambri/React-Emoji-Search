@@ -14,7 +14,7 @@ const EmojiValue = (props) => {
 		})
 	)
 	return (
-		<div className="Emoji-list-wrapper col-md-12">
+		<div className="Emoji-list-wrapper col-md-12 mt-2">
 			<div className="emoji-list col-md-12">
 				{emojiValue}
 			</div>
