@@ -1,15 +1,15 @@
 {
-  "main.css": "/react-emoji-search/static/css/main.febf26b6.chunk.css",
-  "main.js": "/react-emoji-search/static/js/main.81c7b4eb.chunk.js",
-  "main.js.map": "/react-emoji-search/static/js/main.81c7b4eb.chunk.js.map",
-  "runtime~main.js": "/react-emoji-search/static/js/runtime~main.f37c0747.js",
-  "runtime~main.js.map": "/react-emoji-search/static/js/runtime~main.f37c0747.js.map",
-  "static/css/2.78bb1a5e.chunk.css": "/react-emoji-search/static/css/2.78bb1a5e.chunk.css",
-  "static/js/2.b4557e0f.chunk.js": "/react-emoji-search/static/js/2.b4557e0f.chunk.js",
-  "static/js/2.b4557e0f.chunk.js.map": "/react-emoji-search/static/js/2.b4557e0f.chunk.js.map",
+  "main.css": "/react-emoji-search/static/css/main.887ca1fb.chunk.css",
+  "main.js": "/react-emoji-search/static/js/main.2c0a871c.chunk.js",
+  "main.js.map": "/react-emoji-search/static/js/main.2c0a871c.chunk.js.map",
+  "runtime~main.js": "/react-emoji-search/static/js/runtime~main.21ab3d21.js",
+  "runtime~main.js.map": "/react-emoji-search/static/js/runtime~main.21ab3d21.js.map",
+  "static/css/2.d7001a45.chunk.css": "/react-emoji-search/static/css/2.d7001a45.chunk.css",
+  "static/js/2.b7a1913f.chunk.js": "/react-emoji-search/static/js/2.b7a1913f.chunk.js",
+  "static/js/2.b7a1913f.chunk.js.map": "/react-emoji-search/static/js/2.b7a1913f.chunk.js.map",
   "index.html": "/react-emoji-search/index.html",
-  "precache-manifest.72396ae9921ac2fa0ad78a517196cb00.js": "/react-emoji-search/precache-manifest.72396ae9921ac2fa0ad78a517196cb00.js",
+  "precache-manifest.a9bef7b7daa8582561a21040eb0f5205.js": "/react-emoji-search/precache-manifest.a9bef7b7daa8582561a21040eb0f5205.js",
   "service-worker.js": "/react-emoji-search/service-worker.js",
-  "static/css/2.78bb1a5e.chunk.css.map": "/react-emoji-search/static/css/2.78bb1a5e.chunk.css.map",
-  "static/css/main.febf26b6.chunk.css.map": "/react-emoji-search/static/css/main.febf26b6.chunk.css.map"
+  "static/css/2.d7001a45.chunk.css.map": "/react-emoji-search/static/css/2.d7001a45.chunk.css.map",
+  "static/css/main.887ca1fb.chunk.css.map": "/react-emoji-search/static/css/main.887ca1fb.chunk.css.map"
 }
